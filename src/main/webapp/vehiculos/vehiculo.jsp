@@ -32,7 +32,7 @@
 </head>
 <body>
 
-    <form action="modificarlibro.jsp" method="post">
+    <form action="modificarVehiculo.jsp" method="post">
         <label for="matricula">Matricula</label>
         <input type="text" name="matricula" id="matricula" value="<%= vehiculo.getMatricula()%>">
 

@@ -44,6 +44,7 @@
                     out.print("<td>" + vehiculo.getModelo() + "</td>");
                     out.print("<td>" + vehiculo.getColor() + "</td>");
                     out.print("<td>" + vehiculo.getRevisado() + "</td>");
+                    out.print("<td><a href=\"vehiculo.jsp?matricula=" + vehiculo.getMatricula() + "\">revisar</a></td>");
                     out.print("<td><a href=\"vehiculo.jsp?matricula=" + vehiculo.getMatricula() + "\">editar</a></td>");
                     out.print("<td><a href=\"bajaVehiculo.jsp?matricula=" + vehiculo.getMatricula() + "\">eliminar</a></td>");
                     out.print("</tr>");
