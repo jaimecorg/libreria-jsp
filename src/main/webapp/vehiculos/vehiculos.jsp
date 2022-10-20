@@ -51,5 +51,7 @@
                 }
             %>
     </table>
+        <a href="borrarTodos.jsp">Eliminar todos</a>
+
 </body>
 </html>
