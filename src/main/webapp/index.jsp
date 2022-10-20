@@ -10,18 +10,19 @@
 <%
 
   Vehiculo vehiculo = new Vehiculo();
-  vehiculo.setIsbn("1");
-  vehiculo.setAutor("Miguel de cervantes");
-  vehiculo.setTitulo("El quijote");
+  vehiculo.setMatricula("1");
+  vehiculo.setMarca("Miguel de cervantes");
+  vehiculo.setModelo("El quijote");
+  vehiculo.setColor("Miguel de cervantes");
+  vehiculo.setRevisado("El quijote");
 
  
 
-  List<Libro> libros = new ArrayList<Libro>();
-  libros.add(libro);
-  libros.add(libro1);
-  libros.add(libro3);
+  List<Vehiculo> vehiculos = new ArrayList<Vehiculo>();
+  vehiculos.add(vehiculo);
 
-  session.setAttribute("libros", libros);
+
+  session.setAttribute("vehiculos", vehiculos);
 
 
   
@@ -40,7 +41,6 @@
 
 <h1>Menu principal</h1>
 <p><a href="vehiculos/vehiculos.jsp">Vehiculos</a></p>
-<p><a href="socios/socios.jsp">Socios</a></p>
 
 </body>
 </html>
