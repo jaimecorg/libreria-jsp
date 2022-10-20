@@ -4,8 +4,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.llv.libreria</groupId>
-  <artifactId>libreria</artifactId>
+  <groupId>com.jaimecorg.taller</groupId>
+  <artifactId>taller</artifactId>
   <version>1.0</version>
   <packaging>war</packaging>
 
@@ -29,7 +29,7 @@
   </dependencies>
 
   <build>
-    <finalName>libreria</finalName>
+    <finalName>taller</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
